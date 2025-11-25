@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Sessions & Tracks - Global Tech Summit 2025</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">TechSummit 2025</a>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html" class="active">Tracks</a></li>
+                        <li><a href="speakers.html">Speakers</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="blog.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="tickets.html" class="btn btn-primary">Register Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 3rem 0; background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(30, 64, 175, 0.9) 100%), url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=600&fit=crop') center/cover;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Event Sessions & Tracks</h1>
+                <p class="date-venue">Explore our comprehensive program covering all aspects of technology</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="section" style="background: linear-gradient(rgba(249, 250, 251, 0.98), rgba(249, 250, 251, 0.98)), url('https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&h=800&fit=crop') center/cover;">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Tracks</button>
+                <button class="filter-btn" data-filter="tech">Tech</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+                <button class="filter-btn" data-filter="workshops">Workshops</button>
+            </div>
+
+            <!-- Tracks Grid -->
+            <div class="grid grid-3">
+                <!-- Tech Track -->
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop" alt="AI Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Artificial Intelligence & Machine Learning</h3>
+                        <p class="card-text">Deep dive into AI/ML technologies, neural networks, and practical applications. Learn from industry experts.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Dr. Sarah Johnson</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=500&fit=crop" alt="Cloud Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Cloud Computing & Architecture</h3>
+                        <p class="card-text">Master cloud platforms, microservices, and scalable architecture patterns like AWS, Azure, and Google Cloud.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Michael Chen</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=500&fit=crop" alt="Security Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Cybersecurity & Ethical Hacking</h3>
+                        <p class="card-text">Learn security best practices, threat mitigation, and ethical hacking techniques like OWASP and MITRE ATT&CK.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Emily Rodriguez</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Business Track -->
+                <div class="card filterable-item" data-category="business" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop" alt="Business Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Tech Leadership & Management</h3>
+                        <p class="card-text">Build high-performing teams and lead technology initiatives effectively.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Robert Kim</p>
+                        <p><strong>Duration:</strong> 1.5 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="business" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=500&fit=crop" alt="Startup Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Startup Strategy & Fundraising</h3>
+                        <p class="card-text">Learn how to build, scale, and fund your tech startup like a pro using the latest tools and techniques.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Jennifer Martinez</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Design Track -->
+                <div class="card filterable-item" data-category="design" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=500&fit=crop" alt="Design Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">UI/UX Design & User Research</h3>
+                        <p class="card-text">Create intuitive interfaces and conduct effective user research.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Lisa Anderson</p>
+                        <p><strong>Duration:</strong> 1.5 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="design" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=500&fit=crop" alt="Design Systems" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Design Systems & Prototyping</h3>
+                        <p class="card-text">Build scalable design systems and create interactive prototypes.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Mark Thompson</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Research Track -->
+                <div class="card filterable-item" data-category="research" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=500&fit=crop" alt="Research Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Quantum Computing Research</h3>
+                        <p class="card-text">Explore the latest advances in quantum computing and applications.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Dr. David Lee</p>
+                        <p><strong>Duration:</strong> 1.5 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Workshops -->
+                <div class="card filterable-item" data-category="workshops" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop" alt="Workshop" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Hands-on: Building APIs with Node.js</h3>
+                        <p class="card-text">Practical workshop on building RESTful APIs from scratch.</p>
+                        <p style="margin-top: auto;"><strong>Instructor:</strong> Alex Johnson</p>
+                        <p><strong>Duration:</strong> 3 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="workshops" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&h=500&fit=crop" alt="Workshop" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Hands-on: Docker & Kubernetes</h3>
+                        <p class="card-text">Learn containerization and orchestration through hands-on exercises.</p>
+                        <p style="margin-top: auto;"><strong>Instructor:</strong> Sarah Williams</p>
+                        <p><strong>Duration:</strong> 3 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="workshops" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=500&fit=crop" alt="Workshop" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Hands-on: React Advanced Patterns</h3>
+                        <p class="card-text">Master advanced React patterns and performance optimization.</p>
+                        <p style="margin-top: auto;"><strong>Instructor:</strong> Chris Brown</p>
+                        <p><strong>Duration:</strong> 3 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=500&fit=crop" alt="Web Dev Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Modern Web Development</h3>
+                        <p class="card-text">Explore latest frameworks, tools, and best practices in web development.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> Maria Garcia</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop" alt="Data Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">Data Science & Analytics</h3>
+                        <p class="card-text">Learn data analysis, visualization, and machine learning applications like Python, R, and SQL.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> David Kim</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+
+                <div class="card filterable-item" data-category="tech" style="display: flex; flex-direction: column;">
+                    <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=500&fit=crop" alt="DevOps Track" class="card-image">
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <h3 class="card-title">DevOps & CI/CD</h3>
+                        <p class="card-text">Master continuous integration, deployment, and infrastructure automation.</p>
+                        <p style="margin-top: auto;"><strong>Speaker:</strong> James Wilson</p>
+                        <p><strong>Duration:</strong> 2 hours</p>
+                        <a href="service-details.html" class="btn btn-secondary" style="margin-top: 1rem; display: block; text-align: center; width: fit-content; margin-left: auto; margin-right: auto;">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="speakers.html">Speakers</a></li>
+                        <li><a href="services.html">Tracks</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Event Details</h3>
+                    <p>December 15-17, 2024</p>
+                    <p>San Francisco Convention Center</p>
+                    <p>747 Howard Street, San Francisco, CA 94103</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@techsummit2024.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" title="Facebook" class="social-facebook">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" title="Twitter" class="social-twitter">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" title="LinkedIn" class="social-linkedin">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" title="Instagram" class="social-instagram">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" title="YouTube" class="social-youtube">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates and announcements</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Global Tech Summit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
